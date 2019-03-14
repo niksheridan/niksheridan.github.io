@@ -8,7 +8,7 @@ not available in the public domain.
 
 *If you have any concerns please make contact*.
 
-This is built with Github Pages, and setup notes can be found [here](https://niksheridan.github.io/appendicies/github_pages.md).
+This is built with Github Pages, and setup notes can be found [here](https://niksheridan.github.io/appendices/github_pages.md).
 
 ## Architecture Design Records
 
