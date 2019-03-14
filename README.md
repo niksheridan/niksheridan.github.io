@@ -10,7 +10,7 @@ not available in the public domain.
 
 This is built with Github Pages, and setup notes can be found [here](https://niksheridan.github.io/appendices/github_pages.html).
 
-## Architecture Design Records
+## Architecture Decision Records
 
 Listing of latest outcomes from things discussed, and potential considerations made can be found [here](https://niksheridan.github.io/decisions)
 
