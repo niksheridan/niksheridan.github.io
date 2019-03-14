@@ -12,7 +12,7 @@ This is built with Github Pages, and setup notes can be found [here](https://nik
 
 ## Architecture Decision Records
 
-Listing of latest outcomes from things discussed, and potential considerations go [here](https://niksheridan.github.io/decisions).
+For listing of latest outcomes from things discussed, and potential considerations go [here](https://niksheridan.github.io/decisions).
 
 ## Documentation Framework
 
