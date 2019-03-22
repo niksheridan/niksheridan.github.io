@@ -10,6 +10,8 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 [Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
 
+Inconsistent documentation results in confusing 
+
 ## Decision Drivers <!-- optional -->
 
 * [driver 1, e.g., a force, facing concern, …]
