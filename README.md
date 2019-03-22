@@ -2,7 +2,7 @@
 
 Thought log and decision reference repository.  
 
-None of the infromation on these pages should be specific to a client or
+None of the information on these pages should be specific to a client, project or
 particular product.  Care has been made to ensure sensitive topics are
 not available in the public domain.
 
@@ -33,3 +33,4 @@ Network automation:
 * [NAPALM](https://napalm.readthedocs.io/en/latest/)
 * [General Linux useage](https://niksheridan.github.io/decisions/ADR-0001_use_of_linux.html)
 * Serverless (including functions and other marketing interpretations)
+* [Test Driven Deployment with Arista containers in Kuberbetes](https://eos.arista.com/cvp-to-k8s/) 
