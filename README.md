@@ -18,7 +18,7 @@ For quick reference, the following documentation can be viewed here:
 
 ## Architecture Decision Records
 
-Listing of latest outcomes from things discussed, and potential considerations made can be found [here](https://niksheridan.github.io/decisions)
+For listing of latest outcomes from things discussed, and potential considerations go [here](https://niksheridan.github.io/decisions).
 
 ## Documentation Framework
 
