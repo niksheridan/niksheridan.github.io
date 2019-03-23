@@ -62,3 +62,34 @@ To merge the current branch with the master, by example:
 ```bash
 git merge some_branch
 ```
+
+## Merging with Master and Dealing with conflicts
+
+### Check out, review, and merge locally
+
+Step 1. Fetch and check out the branch for this merge request
+
+```bash
+git fetch origin
+git checkout -b infraByAnsible origin/infraByAnsible
+```
+Step 2. Review the changes locally
+
+```bash
+git status
+```
+
+Step 3. Merge the branch and fix any conflicts that come up
+
+```bash
+git fetch origin
+git checkout origin/master
+git merge --no-ff infraByAnsible
+```
+
+Step 4. Push the result of the merge to GitLab
+```bash
+git push origin master
+```
+
+Tip: You can also checkout merge requests locally by following [these guidelines](https://gitlab.com/help/user/project/merge_requests/index.md#checkout-merge-requests-locally).
