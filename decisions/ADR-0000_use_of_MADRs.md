@@ -8,8 +8,6 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 ## Context and Problem Statement
 
-[Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
-
 * Do 'document behemoths' act as an intimidating barrier to those who need to refer to them making them ineffective as a means of controlling governance?
 * Can 'document behemoths' contain so much information they become brittle in their content and disguise linkage of multiple artefacts contained within them?
 * Can 'complicated templates' become so time comsuming to write that they are only '*done correctly and properly*' by a chosen few?
@@ -21,16 +19,21 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 
 ## Decision Drivers <!-- optional -->
-* Monolithic encyclopedic documents demonstrate fixed thinking and are often never read
-* Terse linked documentation should 
+
+* Monolithic documents aften manifest, in practice, a lack of williness to change and a protective attitude to a singular line of throught
+* Encylopedic documents are often referred by their author, but more often than not never read by their reader
+* Often sections of large documents (such as chapters in printed books) are referred to as the *only bit you need to read*, which increases scope for misinterpretation of context
+* Terse linked documentation (especially diagrams) tend to be used more than comprehensive text
+* Text based documentation is far more manageable to version control than graphical representation
 * [driver 2, e.g., a force, facing concern, …]
 * … <!-- numbers of drivers can vary -->
 
 ## Considered Options
 
-* [option 1]
-* [option 2]
-* [option 3]
+* [option 1]: Use graphical representations that are generated using text based definitions and commit these to version control
+* [option 2]: Use existing minimalist familiar methods of creating documents and other means of beautifying them
+* [option 3]: Consideration shoud be given to *how small is small enough*; the minumum should be the goal as anything more is surplus to requirements, or arguably 'wastage'
+* [option 4]: Quality is not directly proportionate to word count; arguments can be made to the opposite being true
 * … <!-- numbers of options can vary -->
 
 ## Decision Outcome
