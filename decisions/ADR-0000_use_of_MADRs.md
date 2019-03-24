@@ -30,10 +30,10 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 ## Considered Options
 
-* [option 1]: Use graphical representations that are generated using text based definitions and commit these to version control
-* [option 2]: Use existing minimalist familiar methods of creating documents and other means of beautifying them
-* [option 3]: Consideration shoud be given to *how small is small enough*; the minumum should be the goal as anything more is surplus to requirements, or arguably 'wastage'
-* [option 4]: Quality is not directly proportionate to word count; arguments can be made to the opposite being true
+* Use graphical representations that are generated using text based definitions and commit these to version control
+* Use existing minimalist familiar methods of creating documents and other means of beautifying them
+* Consideration shoud be given to *how small is small enough*; the minumum should be the goal as anything more is surplus to requirements, or arguably 'wastage'
+* Quality is not directly proportionate to word count; arguments can be made to the opposite being true
 * … <!-- numbers of options can vary -->
 
 ## Decision Outcome
