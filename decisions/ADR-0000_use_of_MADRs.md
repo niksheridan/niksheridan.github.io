@@ -4,7 +4,7 @@
 * Deciders: Nik Sheridan <!-- optional -->
 * Date: 2019-03-13 <!-- optional -->
 
-Technical Story: Decisions need to be auditable and documented to prevent circular discussion to ecourage progression <!-- optional -->
+Technical Story: Decisions need to be auditable and documented to prevent circular discussion to encourage progression <!-- optional -->
 
 ## Context and Problem Statement
 
@@ -14,13 +14,14 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 * Should documentation in general be dissolved into easily digestable parts with familair structures where information can be found in places where they are expected to be?
 * Should documentation be 'easy' to create and should automation be used in it's creation?
 * Should exisitng methods be reused to create documentation?
+* Can specialist software (certain document processors or digram tool software) prevent review of important information and prohibit it's update?
 * Can inconsistent documentation create confusion when they should be creating clarity?
 * How critical is it that any decision is version controlled?
 
 
 ## Decision Drivers <!-- optional -->
 
-* Monolithic documents aften manifest, in practice, a lack of williness to change and a protective attitude to a singular line of throught
+* Monolithic documents often manifest, in practice, a lack of williness to change and a protective attitude to a singular line of throught
 * Encylopedic documents are often referred by their author, but more often than not never read by their reader
 * Often sections of large documents (such as chapters in printed books) are referred to as the *only bit you need to read*, which increases scope for misinterpretation of context
 * Terse linked documentation (especially diagrams) tend to be used more than comprehensive text
