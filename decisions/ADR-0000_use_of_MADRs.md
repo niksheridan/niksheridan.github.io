@@ -4,7 +4,7 @@
 * Deciders: Nik Sheridan <!-- optional -->
 * Date: 2019-03-13 <!-- optional -->
 
-Technical Story: Decisions need to be auditable and documented to prevent circular discussion to encourage progression <!-- optional -->
+Technical Story: Decisions need to be auditable and documented to prevent circular discussion to encourage progression in an accesible way to all<!-- optional -->
 
 ## Context and Problem Statement
 
