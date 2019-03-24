@@ -10,17 +10,17 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 [Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
 
-* Do 'monolithic' or 'encyclopedic' documents demonstrate fixed thinking and manifest in practice a lack of willingness to be changed?
 * Do 'document behemoths' act as an intimidating barrier to those who need to refer to them making them ineffective as a means of controlling governance?
 * Can 'document behemoths' contain so much information they become brittle in their content and disguise linkage of multiple artefacts contained within them?
 * Can 'complicated templates' become so time comsuming to write that they are only '*done correctly and properly*' by a chosen few?
 * Should documentation in general be dissolved into easily digestable parts with familair structures where information can be found in places where they are expected to be?
 * Should documentation be 'easy' to create and should automation be used in it's creation?
 * Should exisitng methods be reused to create documentation?
+* Can inconsistent documentation create confusion when they should be creating clarity?
 * How critical is it that any decision is version controlled?
 
-## Decision Drivers <!-- optional -->
 
+## Decision Drivers <!-- optional -->
 * Monolithic encyclopedic documents demonstrate fixed thinking and are often never read
 * Terse linked documentation should 
 * [driver 2, e.g., a force, facing concern, …]
