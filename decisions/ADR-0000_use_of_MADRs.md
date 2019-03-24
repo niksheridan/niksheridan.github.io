@@ -25,6 +25,7 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 * Often sections of large documents (such as chapters in printed books) are referred to as the *only bit you need to read*, which increases scope for misinterpretation of context
 * Terse linked documentation (especially diagrams) tend to be used more than comprehensive text
 * Text based documentation is far more manageable to version control than graphical representation
+* Changes should be auditable, and releasing these to 'production' could be viewed as more important than the actions they justify and underpin
 * [driver 2, e.g., a force, facing concern, …]
 * … <!-- numbers of drivers can vary -->
 
