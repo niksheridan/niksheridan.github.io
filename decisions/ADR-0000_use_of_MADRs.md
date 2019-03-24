@@ -8,16 +8,17 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 
 ## Context and Problem Statement
 
-* Do 'document behemoths' act as an intimidating barrier to those who need to refer to them making them ineffective as a means of controlling governance?
+* Do 'document behemoths' act as an intimidating barrier to those who need to refer to them, making them ineffective as a means of governance?
 * Can 'document behemoths' contain so much information they become brittle in their content and disguise linkage of multiple artefacts contained within them?
-* Can 'complicated templates' become so time comsuming to write that they are only '*done correctly and properly*' by a chosen few?
-* Should documentation in general be dissolved into easily digestable parts with familair structures where information can be found in places where they are expected to be?
+* Can 'complicated templates' become so time comsuming to write that they are only '*done correctly and properly*' by the chosen few?
+* Should documentation in general be dissolved into easily digestable parts with familair structures where information can be found the places they are expected to be?
 * Should documentation be 'easy' to create and should automation be used in it's creation?
-* Should exisitng methods be reused to create documentation?
-* Can specialist software (certain document processors or digram tool software) prevent review of important information and prohibit it's update?
+* Should existing methods and tools be reused to create documentation, to prevent tool sprawl?
+* Can specialist software (e.g. document processors or digram tool software) prevent review of important information and prohibit it's update?
 * Can inconsistent documentation create confusion when they should be creating clarity?
 * How critical is it that any decision is version controlled?
-
+* Can input to documentation be liberal, but the release of it to 'production state' be conservative?
+* If documentations purpose is to describe ideas, then does it by implication tolerate an *'aspect of chaos'* that fosters creativity and view itself more as a process of tempering this into something constructive and useful?
 
 ## Decision Drivers <!-- optional -->
 
