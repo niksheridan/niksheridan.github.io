@@ -28,6 +28,7 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 * Terse linked documentation (especially diagrams) tend to be used more than comprehensive text
 * Text based documentation is far more manageable to version control than graphical representation
 * Changes should be auditable, and releasing these to 'production' could be viewed as more important than the actions they justify and underpin
+* Simplicity is strong driver for broader adoption and ongoing maintenance
 * [driver 2, e.g., a force, facing concern, …]
 * … <!-- numbers of drivers can vary -->
 
@@ -42,6 +43,9 @@ Technical Story: Decisions need to be auditable and documented to prevent circul
 ## Decision Outcome
 
 Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
+Markdown Architectural Decision Records within a git based respsity should be used, where possible to create decision records.
+If decisions required changing, branches can be created, and approved through merge requests with a more formalised review.
+Identity of contributors can be authenticated and audited through standard git controls
 
 ### Positive Consequences <!-- optional -->
 
