@@ -15,6 +15,8 @@ This is built with Github Pages, and setup notes can be found [here](https://nik
 For quick reference, the following documentation can be viewed here:
 
 * [Useful git commands](https://niksheridan.github.io/appendices/git_cheatsheet.html)
+* [Vim cheat sheet](https://vim.rtorr.com)
+* [tmux cheat sheet](https://tmuxcheatsheet.com)
 
 ## Architecture Decision Records
 
