@@ -1,11 +1,3 @@
-# Reference
-
-Reference repository.  
-
-This is built with Github Pages, and setup notes can be found
-[here](https://niksheridan.github.io/appendices/github_pages.html).
-
-
 ## Quick Reference
 
 For quick reference, the following documentation can be viewed here:
