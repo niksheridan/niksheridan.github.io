@@ -3,13 +3,15 @@ layout: page
 title: Quick reference
 ---
 
+Reference repository and links.
+
 ## Links
 
 For quick reference, the following documentation can be viewed here:
 
-* [Useful git commands](https://niksheridan.github.io/appendices/git_cheatsheet.html)
+* [Useful git commands](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)
 * [Vim cheat sheet](https://vim.rtorr.com)
-* [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/openssl.md)
+* [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.md)
 * [Vimrc file](https://raw.githubusercontent.com/niksheridan/niksheridan.github.io/master/appendices/.vimrc)
 * [Tmux cheat sheet](https://tmuxcheatsheet.com)
 
