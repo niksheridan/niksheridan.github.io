@@ -10,7 +10,7 @@ Reference repository and links.
 For quick reference, the following documentation can be viewed here:
 
 |Item                  |Link                  |Notes                  |
-| :-------------------- | :-------------------: | ----------------------: |
+| :-------------------- | :-------------------: | :--------------------- |
 | KB000 | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html) | Command reference by example |
 | KB001 | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.html) | Certificate usage by example |
 
