@@ -1,4 +1,7 @@
-# Git Cheatsheet
+---
+layout: page
+title: Git Cheatsheet
+---
 
 Reference commands for the ones that get fogotten all too often.
 
