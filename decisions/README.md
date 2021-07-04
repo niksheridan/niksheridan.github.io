@@ -1,7 +1,5 @@
----
-layout: page
-title: Architectural Decision Records
----
+# Architectural Decision Records
+
 Formalisation of thoughts on topics for consideration:
 
 * [ADR-0000](https://niksheridan.github.io/decisions/ADR-0000_use_of_MADRs.html): Use of Markdown Architectural Decision Records (MADR)
