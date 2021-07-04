@@ -1,10 +1,10 @@
-// Lux 5.0.2
+// Minty 5.0.2
 // Bootswatch
 
 
 // Variables
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" !default;
+$web-font-path: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" !default;
 @if $web-font-path {
   @import url($web-font-path);
 }
@@ -12,173 +12,133 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
 // Navbar
 
 .navbar {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
-  font-weight: 600;
-
-  &-nav {
-    .nav-link {
-      padding-top: .715rem;
-      padding-bottom: .715rem;
-    }
-  }
-
-  &-brand {
-    margin-right: 2rem;
-  }
+  font-family: $headings-font-family;
 }
 
-.bg-primary {
-  background-color: theme-color("primary") !important;
+.bg-dark {
+  background-color: $secondary !important;
 }
 
-.bg-light {
-  border: 1px solid rgba(0, 0, 0, .1);
-
-  &.navbar-fixed-top {
-    border-width: 0 0 1px;
-  }
-
-  &.navbar-bottom-top {
-    border-width: 1px 0 0;
-  }
-}
-
-.nav-item {
-  margin-right: 2rem;
+.border-dark {
+  border-color: $secondary !important;
 }
 
 // Buttons
 
 .btn {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
+  font-family: $headings-font-family;
 
-  &-sm {
-    font-size: 10px;
-  }
-
-  &-warning {
-    &,
-    &:hover,
-    &:not([disabled]):not(.disabled):active,
-    &:focus {
-      color: $white;
-    }
-  }
-}
-
-.btn-outline-secondary {
-  border-color: $gray-600;
-  color: $gray-600;
-
-  &:not([disabled]):not(.disabled):hover,
-  &:not([disabled]):not(.disabled):focus,
-  &:not([disabled]):not(.disabled):active {
-    background-color: $gray-400;
-    border-color: $gray-400;
+  &,
+  &:hover {
     color: $white;
   }
 
-  &:not([disabled]):not(.disabled):focus {
-    box-shadow: 0 0 0 .2rem rgba($gray-400, .5);
+  &-light,
+  &-light:hover {
+    color: $gray-700;
+  }
+
+  &-link,
+  &-link:hover {
+    color: $primary;
+  }
+
+  &-link.disabled:hover {
+    color: $gray-600;
+  }
+
+  &-outline-primary {
+    color: $primary;
+  }
+
+  &-outline-secondary {
+    color: $secondary;
+  }
+
+  &-outline-success {
+    color: $success;
+  }
+
+  &-outline-info {
+    color: $info;
+  }
+
+  &-outline-warning {
+    color: $warning;
+  }
+
+  &-outline-danger {
+    color: $danger;
+  }
+
+  &-outline-dark {
+    color: $dark;
+  }
+
+  &-outline-light {
+    color: $light;
   }
 }
 
-[class*="btn-outline-"] {
-  border-width: 2px;
-}
+// Forms
 
-.border-secondary {
-  border: 1px solid $gray-400 !important;
-}
-
-// Typography
-
-body {
-  font-weight: 200;
-  letter-spacing: 1px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.text-secondary {
-  color: $body-color !important;
-}
-
-// Tables
-
-th {
-  font-size: $font-size-sm;
-  text-transform: uppercase;
-}
-
-.table {
-  th,
-  td {
-    padding: 1.5rem;
-  }
-
-  &-sm {
-    th,
-    td {
-      padding: .75rem;
-    }
-  }
+legend {
+  font-family: $headings-font-family;
 }
 
 // Navs
 
 .dropdown-menu {
-  font-size: $font-size-sm;
-  text-transform: none;
+  font-family: $font-family-sans-serif;
+}
+
+.breadcrumb {
+  a {
+    color: $navbar-dark-color;
+  }
+
+  a:hover {
+    color: $white;
+    text-decoration: none;
+  }
 }
 
 // Indicators
 
-.badge {
-  padding-top: .28rem;
-
-  &-pill {
-    border-radius: 10rem;
+.alert {
+  a,
+  .alert-link {
+    color: $white;
   }
 
-  &.bg-secondary,
+  &-light {
+
+    &,
+    a:not(.btn),
+    .alert-link {
+      color: $body-color;
+    }
+  }
+}
+
+.badge {
+  color: $white;
+
   &.bg-light {
-    color: $dark;
+    color: $gray-700;
   }
 }
 
 // Containers
 
+.card,
 .list-group-item {
   h1,
   h2,
   h3,
   h4,
   h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
-    color: inherit;
-  }
-}
-
-.card {
-  &-title,
-  &-header {
+  h6 {
     color: inherit;
   }
 }
