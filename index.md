@@ -9,9 +9,9 @@ Reference repository and links.
 
 For quick reference, the following documentation can be viewed here:
 
-|Item                  |Header2               | Header3               |
+|Item                  |Link                  |Comment                |
 |----------------------|----------------------|-----------------------|
-| KB000XXX Git cheat |[Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)||
+| KB000XXX Git related |[Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)||
 
 * [Useful git commands](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)
 * [Vim cheat sheet](https://vim.rtorr.com)
@@ -21,18 +21,13 @@ For quick reference, the following documentation can be viewed here:
 
 ## Decision Records
 
-For listing of latest outcomes from things discussed, and potential 
-considerations go [here](https://niksheridan.github.io/decisions).
+For the list of common questions that get asked see [here](https://niksheridan.github.io/decisions)
+for ever more increasingly seasoned set of justifications.
 
 ## Documentation Framework
 
-The purpose of this link is to focus on content, not on presentation, but not 
-at the expense of being organised.  Markdown Architectural Decision Records 
-(MADR) has been chosen as the view has been taken that it reduces 
-procrastination on fonts or creation of bespoke templates.  
-See [ADR-0000](https://niksheridan.github.io/decisions/ADR-0000_use_of_MADRs.html) 
+* [ADR-0000](https://niksheridan.github.io/decisions/ADR-0000_use_of_MADRs.html) 
 for further reference regarding jusitifcation.
-
 * [Architectural Decision Records](https://adr.github.io/) specifically 
 [MADR](https://github.com/adr/madr)
 
