@@ -1,8 +1,9 @@
+---
+layout: page
+title: Using Github Pages Platform
+---
 
-# Using Github Pages Platform
-
-A reference link to github pages can be found [here](https://nicolas-van.github.io/easy-markdown-to-github-pages/), 
-and using multiple SSH keys for various repositories can be found [here](https://medium.com/@dustinfarris/managing-multiple-github-deploy-keys-on-a-single-server-f81f8f23e473).
+A reference link to github pages can be found [here](https://github.com/nicolas-van/bootstrap-4-github-pages),
 
 ## Publishing with SSH
 
