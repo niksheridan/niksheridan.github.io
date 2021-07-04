@@ -1,4 +1,7 @@
-# Quick reference
+---
+layout: page
+title: Quick reference
+---
 
 ## Links
 
