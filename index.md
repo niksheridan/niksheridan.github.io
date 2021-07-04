@@ -9,6 +9,10 @@ Reference repository and links.
 
 For quick reference, the following documentation can be viewed here:
 
+|Item                  |Header2               | Header3               |
+|----------------------|----------------------|-----------------------|
+| KB000XXX Git cheat |[Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)||
+
 * [Useful git commands](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)
 * [Vim cheat sheet](https://vim.rtorr.com)
 * [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.md)
