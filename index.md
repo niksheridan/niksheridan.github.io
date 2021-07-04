@@ -11,9 +11,8 @@ For quick reference, the following documentation can be viewed here:
 
 |Item                  |Link                  |Notes                  |
 |----------------------|----------------------|-----------------------|
-| KB000 Git | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html) | |
-| KB001 Openssl | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.html) | |
-
+| KB000 Git | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html) | Command reference by example |
+| KB001 Openssl | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.html) | Certificate usage by example |
 
 ## Links
 

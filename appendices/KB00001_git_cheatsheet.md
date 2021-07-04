@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Git Cheatsheet
+title: KB000001 Git Cheatsheet
 ---
 
-Reference commands for the ones that get fogotten all too often.
+Reference commands for the ones that get forgotten all too often.
 
 ## Define Identity
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Using Github Pages Platform
+title: KB000002 Using Github Pages Platform
 ---
 
 A reference link to github pages can be found [here](https://github.com/nicolas-van/bootstrap-4-github-pages),
