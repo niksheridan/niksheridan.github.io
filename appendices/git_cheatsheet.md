@@ -48,32 +48,6 @@ git push --set-upstream origin some_branch
 To create a new branch and use it, by example:
 
 ```bash
-<<<<<<< HEAD
-git pull
-git checkout -b some_branch
-git push origin some_branch
-```
-
-## View Branches
-
-```bash
-git branch -a
-```
-
-## View Graph
-
-edit your git config file
-
-```bash
-vim ~/.gitconfig
-```
-
-```bash
-[alias]
-lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
-lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
-lg = !"git lg1"
-=======
 git branch some_branch
 git checkout some_branch
 git push --set-upstream origin some_branch
@@ -81,11 +55,12 @@ git push --set-upstream origin some_branch
 
 **Note** you need to switch to the branch to start to use it, and to then push to this branch you need to set 
 
-## Merging with Master
+## Merging with Master (or main)
 
 To merge the current branch with the master, by example:
 
 ```bash
+git checkout main
 git merge some_branch
->>>>>>> 91b62b5bb807ed8d78cd10c6a20acfd544329197
+git push --set-upstream origin main
 ```
