@@ -3,21 +3,18 @@ layout: page
 title: Openssl
 ---
 
-## Quick Reference
-
-
-# References
+## References
 
 [http://www.shellhacks.com/en/HowTo-Check-SSL-Certificate-Expiration-Date-from-the-Linux-Shell](http://www.shellhacks.com/en/HowTo-Check-SSL-Certificate-Expiration-Date-from-the-Linux-Shell) 
 
 
-# OpenSSL and Certificates
+## OpenSSL and Certificates
 
 
 *   [Netscaler Certificate generation with SANs example](https://nsheridan.plus.com/dokuwiki/doku.php?id=netscaler_certificate_example:openssl)
 
 
-# Generate CA
+## Generate CA
 
 
 ```
@@ -30,7 +27,7 @@ openssl req -config openssl.cnf \
 
 
 
-# Generate Self Signed Certificate and Export to pfx (PKCS12)
+## Generate Self Signed Certificate and Export to pfx (PKCS12)
 
 
 ```
@@ -40,7 +37,7 @@ openssl pkcs12 -export -out azure.pfx -inkey azure.key -in azure.crt
 
 
 
-# Generate CSR
+## Generate CSR
 
 
 ```
@@ -50,7 +47,7 @@ openssl req -new -sha256 -key nsheridan.plus.com.20151108.key -out nsheridan.plu
 
 
 
-# Adding SANs?
+## Adding SANs?
 
 Make sure this section is added to the req section - make these changes to your config file (default being /etc/ssl/openssl.cnf
 
@@ -106,7 +103,7 @@ openssl x509 -req -days 3650 -in meetups.dishcloth.com.20160330.csr -CA LDN4IV1P
 
 
 
-# Check CSR
+## Check CSR
 
 
 ```
@@ -115,7 +112,7 @@ openssl req -noout -text -in nsheridan.plus.com.20151108.csr
 
 
 
-# Sign CSR
+## Sign CSR
 
 
 ```
@@ -124,7 +121,7 @@ openssl x509 -req -days 3650 -in nsheridan.plus.com.20151108.csr -CA dishclothCA
 
 
 
-# Check CER
+## Check CER
 
 
 ```
@@ -133,7 +130,7 @@ openssl x509 -text -in nsheridan.plus.com.20151108.cer
 
 
 
-# Convert DER to PEM
+## Convert DER to PEM
 
 
 ```
@@ -142,7 +139,7 @@ openssl x509 -inform der -in certificate.cer -out certificate.pem
 
 
 
-# Convert PEM to DER
+## Convert PEM to DER
 
 
 ```
@@ -151,7 +148,7 @@ openssl x509 -outform der -in certificate.pem -out certificate.der
 
 
 
-# Check OCSP Validity
+## Check OCSP Validity
 
 Note the CERT_CHAIN is the PEM format certificate with the root at the bottom and intermediates at the top of the file (literally) with the last intermediate in the chain at the top.
 
@@ -162,13 +159,13 @@ openssl ocsp -issuer ./CERT_CHAIN -cert WILD.dishcloth.com.20140415.cer -text -u
 
 
 
-# Client Certificates
+## Client Certificates
 
 [https://gist.github.com/mtigas/952344](https://gist.github.com/mtigas/952344)
 
 
 
-# Client Certificates
+## Client Certificates
 
 *   Generate a key
 *   Generate a CSR with the key
@@ -185,7 +182,7 @@ sudo openssl pkcs12 -export -clcerts -in ./sheridannet.20150827.LAB.cer -inkey .
 
 
 
-# SSL Scan with Client Certificate Authentication
+## SSL Scan with Client Certificate Authentication
 
 Note the escape character before the `!`
 
@@ -193,7 +190,7 @@ Note the escape character before the `!`
 sslscan --pk="sheridannet.20150828.LAB.p12" --pkpass="Q\!w2e3r4" netlab1.dishcloth.com
 ```
 
-# SSL Check
+## SSL Check
 
 If you need to check a certificate that is in use:
 
@@ -201,7 +198,7 @@ If you need to check a certificate that is in use:
 openssl s_client -connect meetups.dishcloth.com:443
 ```
 
-# Extracting and Comparing Modulus Values with Private Keys
+## Extracting and Comparing Modulus Values with Private Keys
 
 This extract the modulus and then runs an md5 hash on it, to make it a smaller bunch of text, so you can run `uniq` which is similar to a diff
 
@@ -211,7 +208,7 @@ This extract the modulus and then runs an md5 hash on it, to make it a smaller b
 
 Successful results contains a single value, as there is only one value to compare.
 
-# Combining certificates into a single PKCS12 file
+## Combining certificates into a single PKCS12 file
 
 ```
 sudo openssl pkcs12 -export -out int2lb101v.dishcloth.com.20140415.pfx -inkey int2lb101v.dishcloth.com.20140415.key -in ./int2lb101v.dishcloth.com.20140415.cer -certfile dishclothissuingCA01_sept.cer -certfile dishclothRootCA_sept.cer
@@ -220,7 +217,7 @@ sudo openssl pkcs12 -export -out int2lb101v.dishcloth.com.20140415.pfx -inkey in
 You are done.
 
 
-# Verify PKCS12
+## Verify PKCS12
 
 Issue this command, by example:
 
@@ -231,7 +228,7 @@ openssl pkcs12 -info -in cxwtest.dishcloth.com.20160425.pfx
 
 
 
-# Checking certificate expiry en Masse
+## Checking certificate expiry en Masse
 
 
 ```
@@ -240,10 +237,10 @@ echo | openssl s_client -connect begw1.dishcloth.com:443 2>/dev/null | openssl x
 
 
 
-# Extracting the Private key and Certificate, and Removing the Passphrase
+## Extracting the Private key and Certificate, and Removing the Passphrase
 
 
-## Export the private key
+### Export the private key
 
 
 ```
@@ -252,7 +249,7 @@ openssl pkcs12 -in certname.pfx -nocerts -out key.pem -nodes
 
 
 
-## **Export the certificate**
+### Export the certificate
 
 
 ```
@@ -261,7 +258,7 @@ openssl pkcs12 -in certname.pfx -nokeys -out cert.pem
 
 
 
-## R**emove the passphrase from the private key**
+### Remove the passphrase from the private key**
 
 
 ```
