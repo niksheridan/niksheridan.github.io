@@ -36,6 +36,14 @@ Print out all branches in use:
 git branch --all
 ```
 
+## Added Changes Accidentally
+
+If you've added, but not yet commited you can reverse this action:
+
+```bash
+git reset
+```
+
 ## Switch to branch
 
 ```bash
