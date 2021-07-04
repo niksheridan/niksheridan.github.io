@@ -33,6 +33,10 @@ for further reference regarding jusitifcation.
 
 ## Current Topics of Interest
 
+Github for static pages:
+
+* generated from [nicolas-van/bootstrap-4-github-pages](https://github.com/nicolas-van/bootstrap-4-github-pages)
+
 Network automation:
 
 * [NAPALM](https://napalm.readthedocs.io/en/latest/)
