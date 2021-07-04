@@ -12,7 +12,7 @@ For quick reference, the following documentation can be viewed here:
 |Item                  |Link                  |Notes                  |
 |----------------------|----------------------|-----------------------|
 | KB000 Git | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html) | |
-| KB001 Openssl | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.md) | |
+| KB001 Openssl | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.html) | |
 
 * [Useful git commands](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)
 * [Vim cheat sheet](https://vim.rtorr.com)
