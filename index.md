@@ -5,7 +5,7 @@ title: Quick reference
 
 Reference repository and links.
 
-## Links
+## Quick Reference Table
 
 For quick reference, the following documentation can be viewed here:
 
@@ -14,16 +14,16 @@ For quick reference, the following documentation can be viewed here:
 | KB000 Git | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html) | |
 | KB001 Openssl | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.html) | |
 
-* [Useful git commands](https://niksheridan.github.io/appendices/KB00001_git_cheatsheet.html)
+
+## Links
+
 * [Vim cheat sheet](https://vim.rtorr.com)
-* [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB00101_openssl.md)
 * [Vimrc file](https://raw.githubusercontent.com/niksheridan/niksheridan.github.io/master/appendices/.vimrc)
 * [Tmux cheat sheet](https://tmuxcheatsheet.com)
 
 ## Decision Records
 
-For the list of common questions that get asked see [here](https://niksheridan.github.io/decisions)
-for ever more increasingly seasoned set of justifications.
+Stock answers to common questions that get asked see [here](https://niksheridan.github.io/decisions)
 
 ## Documentation Framework
 
