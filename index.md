@@ -20,25 +20,17 @@ For quick reference, the following documentation can be viewed here:
 * [Vimrc file](https://raw.githubusercontent.com/niksheridan/niksheridan.github.io/master/appendices/.vimrc)
 * [Tmux cheat sheet](https://tmuxcheatsheet.com)
 
-## Decision Records
+## Common Design Queries
 
-Stock answers to common questions that get asked see [here](https://niksheridan.github.io/decisions)
+Common questions that get asked see [here](https://niksheridan.github.io/decisions)
 
-## Documentation Framework
+### Automation:
 
-* [ADR-0000](https://niksheridan.github.io/decisions/ADR-0000_use_of_MADRs.html) 
-for further reference regarding jusitifcation.
-* [Architectural Decision Records](https://adr.github.io/) specifically 
-[MADR](https://github.com/adr/madr)
+* [Terrafrom Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+* [Terraform Cisco ACI Provider](https://registry.terraform.io/providers/CiscoDevNet/aci/latest/docs)
 
 ## Current Topics of Interest
 
 Github for static pages:
 
-* generated from [nicolas-van/bootstrap-4-github-pages](https://github.com/nicolas-van/bootstrap-4-github-pages)
-
-Network automation:
-
-* [NAPALM](https://napalm.readthedocs.io/en/latest/)
-* [General Linux useage](https://niksheridan.github.io/decisions/ADR-0001_use_of_linux.html)
-* Serverless (including functions and other marketing interpretations)
+* Static pages [nicolas-van/bootstrap-4-github-pages](https://github.com/nicolas-van/bootstrap-4-github-pages)
