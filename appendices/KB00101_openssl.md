@@ -5,7 +5,7 @@ title: KB001001 Openssl Reference
 
 ## References
 
-[http://www.shellhacks.com/en/HowTo-Check-SSL-Certificate-Expiration-Date-from-the-Linux-Shell](http://www.shellhacks.com/en/HowTo-Check-SSL-Certificate-Expiration-Date-from-the-Linux-Shell) 
+None, since been removed.
 
 ## OpenSSL and Certificates
 
