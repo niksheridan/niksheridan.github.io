@@ -1,3 +1,7 @@
+# Quick reference
+
+## Links
+
 For quick reference, the following documentation can be viewed here:
 
 * [Useful git commands](https://niksheridan.github.io/appendices/git_cheatsheet.html)
