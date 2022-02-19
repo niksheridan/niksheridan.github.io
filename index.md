@@ -11,8 +11,9 @@ For quick reference, the following documentation can be viewed here:
 
 |Item        | Link       | Notes      |
 | :--------- | :--------- | :--------- |
-| KB000 | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB000001_git_cheatsheet.html) | Command reference by example |
-| KB001 | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB001001_openssl.html) | Certificate usage by example |
+| KB000001 | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB000001_git_cheatsheet.html) | Command reference by example |
+| KB001001 | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB001001_openssl.html) | Certificate usage by example |
+| KB002001 | [Azure Custom Roles](https://niksheridan.github.io/appendices/KB002001_azure_custom_roles.html) | Creating and Managing Azure custom roles programmatically |
 
 ## Links
 
