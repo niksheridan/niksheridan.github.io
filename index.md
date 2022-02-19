@@ -24,7 +24,7 @@ For quick reference, the following documentation can be viewed here:
 
 Common questions that get asked see [here](https://niksheridan.github.io/decisions)
 
-### Automation:
+### Automation
 
 * [Terrafrom Azure Provider](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 * [Terraform Cisco ACI Provider](https://registry.terraform.io/providers/CiscoDevNet/aci/latest/docs)
