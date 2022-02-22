@@ -67,7 +67,8 @@ AA901FCA-FA18-47DF-A471-8CC06F2F18CF
  nsheridan@shr1mbk1  ~/code/niksheridan.github.io   master ± 
 ```
 
-Regarding follow conversations regarding [uuid vs guid](https://stackoverflow.com/questions/246930/is-there-any-difference-between-a-guid-and-a-uuid)
+Regarding follow conversations regarding
+[uuid vs guid](https://stackoverflow.com/questions/246930/is-there-any-difference-between-a-guid-and-a-uuid)
 this is a particulary good explanation, which relates to [RFC4122](https://datatracker.ietf.org/doc/html/rfc4122#section-4.1.1)
 essentially there are differences but broadly speaking this relates to a microsoft
-interpretation.
+interpretation of the standard.
