@@ -62,9 +62,9 @@ When [using the API](https://docs.microsoft.com/en-us/azure/role-based-access-co
 note that the name needs to be randomly generated, so for example in osx this can be done as follows with ```uuidgen```:
 
 ```zsh
- nsheridan@shr1mbk1  ~/code/niksheridan.github.io   master ±  uuidgen
+nsheridan@shr1mbk1 ~/code/niksheridan.github.io > uuidgen
 AA901FCA-FA18-47DF-A471-8CC06F2F18CF
- nsheridan@shr1mbk1  ~/code/niksheridan.github.io   master ± 
+nsheridan@shr1mbk1 ~/code/niksheridan.github.io >
 ```
 
 Regarding follow conversations regarding
