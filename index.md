@@ -3,7 +3,7 @@ layout: page
 title: Quick reference
 ---
 
-Reference repository and links.
+Reference repository and links. See the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) reference for more elaborate techniques.
 
 ## Quick Reference Table
 
