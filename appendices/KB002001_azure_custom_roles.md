@@ -58,7 +58,7 @@ az role definition update --role-definition update_def.json --subscription <sub-
 
 ## Using the API
 
-When (using the API)[https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-rest#create-a-custom-role]
+When [using the API](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles-rest#create-a-custom-role)
 note that the name needs to be randomly generated, so for example in osx this can be done as follows with ```uuidgen```:
 
 ```zsh
@@ -68,4 +68,6 @@ AA901FCA-FA18-47DF-A471-8CC06F2F18CF
 ```
 
 Regarding follow conversations regarding [uuid vs guid](https://stackoverflow.com/questions/246930/is-there-any-difference-between-a-guid-and-a-uuid)
-this is a particulary good explanation, which relates to [rfc4122](https://datatracker.ietf.org/doc/html/rfc4122#section-4.1.1)
+this is a particulary good explanation, which relates to [RFC4122](https://datatracker.ietf.org/doc/html/rfc4122#section-4.1.1)
+essentially there are differences but broadly speaking this relates to a microsoft
+interpretation.
