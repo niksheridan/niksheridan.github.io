@@ -15,7 +15,7 @@ For quick reference, the following documentation can be viewed here:
 | KB001001   | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB001001_openssl.html) | Certificate usage by example |
 | KB002001   | [Azure Custom Roles](https://niksheridan.github.io/appendices/KB002001_azure_custom_roles.html) | Creating and Managing Azure custom roles programmatically |
 | KB002002   | [Azure Custom Policies](https://niksheridan.github.io/appendices/KB002002_azure_custom_policies.html) | Creating and Managing Azure custom policies programmatically |
-| KB003001   | [Python Environment Variables]() |
+| KB003001   | [Python Environment Variables](https://niksheridan.github.io/appendices/KB003001_python_env_vars.html) | Using a local environment variable file to simulate another environment |
 
 ## Links
 
