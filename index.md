@@ -10,11 +10,12 @@ Reference repository and links. See the [Markdown Cheat Sheet](https://github.co
 For quick reference, the following documentation can be viewed here:
 
 |Item        | Link       | Notes      |
-| :--------- | :--------- | :--------- |
-| KB000001 | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB000001_git_cheatsheet.html) | Command reference by example |
-| KB001001 | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB001001_openssl.html) | Certificate usage by example |
-| KB002001 | [Azure Custom Roles](https://niksheridan.github.io/appendices/KB002001_azure_custom_roles.html) | Creating and Managing Azure custom roles programmatically |
-| KB002002 | [Azure Custom Policies](https://niksheridan.github.io/appendices/KB002002_azure_custom_policies.html) | Creating and Managing Azure custom policies programmatically |
+| ---------- | ---------- | ---------- |
+| KB000001   | [Git Cheatsheet](https://niksheridan.github.io/appendices/KB000001_git_cheatsheet.html) | Command reference by example |
+| KB001001   | [OpenSSL cheat sheet](https://niksheridan.github.io/appendices/KB001001_openssl.html) | Certificate usage by example |
+| KB002001   | [Azure Custom Roles](https://niksheridan.github.io/appendices/KB002001_azure_custom_roles.html) | Creating and Managing Azure custom roles programmatically |
+| KB002002   | [Azure Custom Policies](https://niksheridan.github.io/appendices/KB002002_azure_custom_policies.html) | Creating and Managing Azure custom policies programmatically |
+| KB003001   | [Python Environment Variables]() |
 
 ## Links
 
