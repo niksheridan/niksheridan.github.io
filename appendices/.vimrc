@@ -41,7 +41,7 @@ set smartcase                               " Use case insensitive search, excep
 " ----------------------------------------------------------------------------------------------------------------------
 filetype plugin indent on                   " Automatically detect file types.
 syntax on                                   " Syntax highlighting
-
+colo slate                                  " Colourful pleasant to use for coding
 
 " Python specific display options
 " ----------------------------------------------------------------------------------------------------------------------
