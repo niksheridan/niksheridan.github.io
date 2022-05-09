@@ -16,6 +16,7 @@ For quick reference, the following documentation can be viewed here:
 | KB002001   | [Azure Custom Roles](https://niksheridan.github.io/appendices/KB002001_azure_custom_roles.html) | Creating and Managing Azure custom roles programmatically |
 | KB002002   | [Azure Custom Policies](https://niksheridan.github.io/appendices/KB002002_azure_custom_policies.html) | Creating and Managing Azure custom policies programmatically |
 | KB003001   | [Python Environment Variables](https://niksheridan.github.io/appendices/KB003001_python_env_vars.html) | Using a local environment variable file to simulate another environment |
+| KB004001   | [Linux Ubuntu Network Manager](https://niksheridan.github.io/appendices/KB004001_linux_ubuntu_nw_manager.html) | Using network manager with Ubuntu Linux |
 
 ## Links
 
