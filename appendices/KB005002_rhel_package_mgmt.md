@@ -19,3 +19,14 @@ postgresql             13                 client, server [d]            PostgreS
 Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
 root@rhel:~# 
 ```
+
+Note the `[d]` next to version 10.  This means if no options were selected then version 10 would be installed - the default.
+
+Example usage:
+
+```bash
+yum -y module install postgresql:9.6
+yum module list postgresql
+yum -y module remove postgresql:9.6
+yum -y module disable postgresql
+```
