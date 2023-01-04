@@ -9,3 +9,7 @@ Index page for blog relating to RHCSA study progress
 * [Redhat Learning Community](https://learn.redhat.com/) is a forum for guidance on learning redhat skills
 * [Redhat Self Paced Labs](https://lab.redhat.com) work on simulations and workshops
 * [Redhat Certification Resources](https://learn.redhat.com/t5/Certification-Resources/bg-p/certification_resources) where you can subscribe for updates
+
+## Redhat Related Documents
+
+[Package Management](https://niksheridan.github.io/appendices/KB005002_rhel_package_mgmt.html)
