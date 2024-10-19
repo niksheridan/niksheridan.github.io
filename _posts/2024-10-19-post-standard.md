@@ -109,31 +109,49 @@ openssl x509 -req \
 ## Check CSR
 
 ```bash
-openssl req -noout -text -in nsheridan.plus.com.20151108.csr
+openssl req \
+  -noout \
+  -text \
+  -in nsheridan.plus.com.20151108.csr
 ```
 
 ## Sign CSR
 
 ```bash
-openssl x509 -req -days 3650 -in nsheridan.plus.com.20151108.csr -CA dishclothCA.20151108.cer -CAkey dishclothCA.20151108.key -CAcreateserial -out nsheridan.plus.com.20151108.cer
+openssl x509 \
+  -req \
+  -days 3650 \
+  -in nsheridan.plus.com.20151108.csr \
+  -CA dishclothCA.20151108.cer \
+  -CAkey dishclothCA.20151108.key \
+  -CAcreateserial \
+  -out nsheridan.plus.com.20151108.cer
 ```
 
 ## Check CER
 
 ```bash
-openssl x509 -text -in nsheridan.plus.com.20151108.cer
+openssl x509 \
+  -text \
+  -in nsheridan.plus.com.20151108.cer
 ```
 
 ## Convert DER to PEM
 
 ```bash
-openssl x509 -inform der -in certificate.cer -out certificate.pem
+openssl x509 \
+  -inform der \
+  -in certificate.cer \
+  -out certificate.pem
 ```
 
 ## Convert PEM to DER
 
 ```bash
-openssl x509 -outform der -in certificate.pem -out certificate.der
+openssl x509 \
+  -outform der \
+  -in certificate.pem \
+  -out certificate.der
 ```
 
 ## Check OCSP Validity
@@ -141,7 +159,11 @@ openssl x509 -outform der -in certificate.pem -out certificate.der
 Note the CERT_CHAIN is the PEM format certificate with the root at the bottom and intermediates at the top of the file (literally) with the last intermediate in the chain at the top.
 
 ```bash
-openssl ocsp -issuer ./CERT_CHAIN -cert WILD.dishcloth.com.20140415.cer -text -url http://ocsp.dishcloth.com/ocsp
+openssl ocsp \
+  -issuer ./CERT_CHAIN \
+  -cert WILD.dishcloth.com.20140415.cer \
+  -text \
+  -url http://ocsp.dishcloth.com/ocsp
 ```
 
 ## Client Certificates
@@ -154,10 +176,24 @@ openssl ocsp -issuer ./CERT_CHAIN -cert WILD.dishcloth.com.20140415.cer -text -u
 * Wrap it all up into a P12 for importing into a workstation
 
 ```bash
-sudo openssl genrsa -aes256 -out ./sheridannet.20150827.LAB.key 4096
-sudo openssl req -new -key ./sheridannet.20150827.LAB.key -out ./sheridannet.20150827.LAB.csr
-sudo openssl ca -in ./sheridannet.20150827.LAB.csr -cert ./labCA.cer -keyfile labCA.key -out ./sheridannet.20150827.LAB.cer
-sudo openssl pkcs12 -export -clcerts -in ./sheridannet.20150827.LAB.cer -inkey ./sheridannet.20150827.LAB.key -out ./sheridannet.20150827.LAB.p12
+sudo openssl genrsa \
+  -aes256 \
+  -out ./sheridannet.20150827.LAB.key 4096
+sudo openssl req \
+  -new \
+  -key ./sheridannet.20150827.LAB.key \
+  -out ./sheridannet.20150827.LAB.csr
+sudo openssl ca \
+  -in ./sheridannet.20150827.LAB.csr \
+  -cert ./labCA.cer \
+  -keyfile labCA.key \
+  -out ./sheridannet.20150827.LAB.cer
+sudo openssl pkcs12 \
+  -export \
+  -clcerts \
+  -in ./sheridannet.20150827.LAB.cer \
+  -inkey ./sheridannet.20150827.LAB.key \
+  -out ./sheridannet.20150827.LAB.p12
 ```
 
 ## SSL Scan with Client Certificate Authentication
@@ -165,7 +201,10 @@ sudo openssl pkcs12 -export -clcerts -in ./sheridannet.20150827.LAB.cer -inkey .
 Note the escape character before the `!`
 
 ```bash
-sslscan --pk="sheridannet.20150828.LAB.p12" --pkpass="Q\!w2e3r4" netlab1.dishcloth.com
+sslscan \
+  --pk="sheridannet.20150828.LAB.p12" \
+  --pkpass="Q\!w2e3r4" \
+  netlab1.dishcloth.com
 ```
 
 ## SSL Check
@@ -173,7 +212,8 @@ sslscan --pk="sheridannet.20150828.LAB.p12" --pkpass="Q\!w2e3r4" netlab1.dishclo
 If you need to check a certificate that is in use:
 
 ```bash
-openssl s_client -connect meetups.dishcloth.com:443
+openssl s_client \
+  -connect meetups.dishcloth.com:443
 ```
 
 ## Extracting and Comparing Modulus Values with Private Keys
@@ -189,7 +229,13 @@ Successful results contains a single value, as there is only one value to compar
 ## Combining certificates into a single PKCS12 file
 
 ```bash
-sudo openssl pkcs12 -export -out int2lb101v.dishcloth.com.20140415.pfx -inkey int2lb101v.dishcloth.com.20140415.key -in ./int2lb101v.dishcloth.com.20140415.cer -certfile dishclothissuingCA01_sept.cer -certfile dishclothRootCA_sept.cer
+sudo openssl pkcs12 \
+  -export \
+  -out int2lb101v.dishcloth.com.20140415.pfx \
+  -inkey int2lb101v.dishcloth.com.20140415.key \
+  -in ./int2lb101v.dishcloth.com.20140415.cer \
+  -certfile dishclothissuingCA01_sept.cer \
+  -certfile dishclothRootCA_sept.cer
 ```
 
 You are done.
@@ -199,7 +245,9 @@ You are done.
 Issue this command, by example:
 
 ```bash
-openssl pkcs12 -info -in cxwtest.dishcloth.com.20160425.pfx
+openssl pkcs12 \
+  -info \
+  -in cxwtest.dishcloth.com.20160425.pfx
 ```
 
 ## Checking certificate expiry en Masse
@@ -213,7 +261,11 @@ echo | openssl s_client -connect begw1.dishcloth.com:443 2>/dev/null | openssl x
 ### Export the private key
 
 ```bash
-openssl pkcs12 -in certname.pfx -nocerts -out key.pem -nodes
+openssl pkcs12 \
+  -in certname.pfx \
+  -nocerts \
+  -out key.pem \
+  -nodes
 ```
 
 ### Export the certificate
