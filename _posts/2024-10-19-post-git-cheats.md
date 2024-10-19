@@ -1,10 +1,11 @@
 ---
-title: "SSL Quick reference"
+title: "Git Useful Reference"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
   - Post Formats
+  - How To
   - readability
   - standard
 ---

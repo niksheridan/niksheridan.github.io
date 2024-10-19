@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - Post Formats
+  - How To
   - readability
   - standard
 ---
