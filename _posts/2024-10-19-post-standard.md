@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "SSL Quick reference"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
