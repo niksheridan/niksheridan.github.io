@@ -19,5 +19,4 @@ When using bash consider updating your `~/.bashrc`:
 alias k=kubectl
 ```
 
-See more [kubectl_reference](#).
-
+Also see [kubectl Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/).
