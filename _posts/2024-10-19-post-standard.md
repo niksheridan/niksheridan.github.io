@@ -19,7 +19,11 @@ None, since been removed.
 ## Generate CA
 
 ```bash
-openssl genrsa -aes256 -out dishclothCA.20151108.key 4096
+# new key
+openssl genrsa \
+  -aes256 \
+  -out dishclothCA.20151108.key 4096
+# new self signed request
 openssl req -config openssl.cnf \
   -key dishclothCA.20151108.key \
   -new \
