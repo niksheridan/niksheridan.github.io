@@ -8,7 +8,6 @@ tags:
   - readability
   - standard
 ---
-
 ## References
 
 None, since been removed.
@@ -37,8 +36,16 @@ openssl pkcs12 -export -out azure.pfx -inkey azure.key -in azure.crt
 ## Generate CSR
 
 ```bash
-openssl genrsa -out nsheridan.plus.com.20151108.key 2048
-openssl req -new -sha256 -key nsheridan.plus.com.20151108.key -out nsheridan.plus.com.20151108.csr -config openssl.cnf
+# new key
+openssl genrsa \
+  -out nsheridan.plus.com.20151108.key 2048
+# new request
+openssl req \
+  -new \
+  -sha256 \
+  -key nsheridan.plus.com.20151108.key \
+  -out nsheridan.plus.com.20151108.csr \
+  -config openssl.cnf
 ```
 
 ## Adding SANs
@@ -83,7 +90,15 @@ copy_extensions = copy
 Sign it with an extensions file:
 
 ```bash
-openssl x509 -req -days 3650 -in meetups.dishcloth.com.20160330.csr -CA LDN4IV1PRV01_CA.20160330.cer -CAkey LDN4IV1PRV01_CA.20160330.key -CAcreateserial -out meetups.dishcloth.com.20160330.cer -extensions v3_req -extfile meetups.dishcloth.com.20160330.cnf
+openssl x509 -req \
+  -days 3650 \
+  -in meetups.dishcloth.com.20160330.csr \
+  -CA LDN4IV1PRV01_CA.20160330.cer \
+  -CAkey LDN4IV1PRV01_CA.20160330.key \
+  -CAcreateserial \
+  -out meetups.dishcloth.com.20160330.cer \
+  -extensions v3_req \
+  -extfile meetups.dishcloth.com.20160330.cnf
 ```
 
 ## Check CSR
