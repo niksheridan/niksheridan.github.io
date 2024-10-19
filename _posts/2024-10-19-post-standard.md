@@ -8,13 +8,9 @@ tags:
   - readability
   - standard
 ---
-## References
+# SSL Quick Reference
 
-None, since been removed.
-
-## OpenSSL and Certificates
-
-* [Netscaler Certificate generation with SANs example](https://nsheridan.plus.com/dokuwiki/doku.php?id=netscaler_certificate_example:openssl)
+How to get reminders on syntax and parameters.
 
 ## Generate CA
 
@@ -37,7 +33,10 @@ openssl req -config openssl.cnf \
 ## Generate Self Signed Certificate and Export to pfx (PKCS12)
 
 ```bash
-openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout azure.key -out azure.crt
+openssl req \
+  -x509 \
+  -sha256\
+   -nodes -days 365 -newkey rsa:2048 -keyout azure.key -out azure.crt
 openssl pkcs12 -export -out azure.pfx -inkey azure.key -in azure.crt 
 ```
 
