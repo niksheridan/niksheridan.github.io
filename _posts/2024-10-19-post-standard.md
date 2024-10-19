@@ -6,8 +6,8 @@ categories:
 tags:
   - Post Formats
   - How To
-  - readability
-  - standard
+  - Readability
+  - Standard
 ---
 How to's and reminders on syntax and parameters.
 

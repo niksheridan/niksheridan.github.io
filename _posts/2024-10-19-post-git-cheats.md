@@ -6,8 +6,8 @@ categories:
 tags:
   - Post Formats
   - How To
-  - readability
-  - standard
+  - Readability
+  - Standard
 ---
 Reference commands for the ones that get forgotten all too often.
 
