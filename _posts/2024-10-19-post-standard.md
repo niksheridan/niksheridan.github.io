@@ -8,9 +8,7 @@ tags:
   - readability
   - standard
 ---
-# SSL Quick Reference
-
-How to get reminders on syntax and parameters.
+How to's and reminders on syntax and parameters.
 
 ## Generate CA
 
