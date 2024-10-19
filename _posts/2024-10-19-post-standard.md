@@ -22,7 +22,11 @@ None, since been removed.
 openssl genrsa -aes256 -out dishclothCA.20151108.key 4096
 openssl req -config openssl.cnf \
   -key dishclothCA.20151108.key \
-  -new -x509 -days 7300 -sha256 -extensions v3_ca \
+  -new \
+  -x509 \
+  -days 7300 \
+  -sha256 \
+  -extensions v3_ca \
   -out dishclothCA.20151108.cer
 ```
 
