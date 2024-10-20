@@ -37,6 +37,7 @@ Add contents to the file
 this = {
   amazing_key = "amazing value"
 }
+```
 
 Load up console:
 
