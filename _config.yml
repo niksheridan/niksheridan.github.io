@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Nik Sheridan"
   avatar : "/assets/images/mugshot.jpg"
-  bio    : "Some notes and thoughts."
+  bio    : "Some notes and thoughts, mainly for my future self."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"

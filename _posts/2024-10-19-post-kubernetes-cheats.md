@@ -40,7 +40,7 @@ $
 ```
 
 An asterisk determines the current cluster.  Now lets switch to
-minikube!
+minikube.
 
 ```bash
 k config use-context minikube
