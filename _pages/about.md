@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-The world can be your template.
+Feedback any comments via twitter ('X') and I will try and address, thanks.
