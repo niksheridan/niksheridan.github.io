@@ -6,8 +6,8 @@ categories:
 tags:
   - How To
 ---
-Reference syntax for terraform wrapping. See [terraform working with vars](blog/post-terraform-working-with-vars/) and
-[terraform locals](blog/post-terraform-locals.md) if you find gaps.
+Reference syntax for terraform wrapping. See [terraform working with vars]({{ site.baseurl }}/post-terraform-working-with-vars/) and
+[terraform locals]({{ site.baseurl }}/post-terraform-locals.md) if you find gaps.
 
 ## Terraform Wrap
 
