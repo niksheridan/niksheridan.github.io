@@ -7,7 +7,7 @@ tags:
   - How To
 ---
 Reference syntax for terraform wrapping. See [terraform working with vars]({{ site.baseurl }}/blog/post-terraform-working-with-vars/) and
-[terraform locals]({{ site.baseurl }}/blog/post-terraform-locals.md) if you find gaps.
+[terraform locals]({{ site.baseurl }}/blog/post-terraform-locals/) if you find gaps.
 
 ## Terraform Wrap
 
