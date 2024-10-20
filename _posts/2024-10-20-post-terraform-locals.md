@@ -13,13 +13,25 @@ Reference syntax for terraform loops.
 Don't forget terraform console, and also how you can load vars in
 for experimenting.
 
-Declare your variable:
+Create a variable declaration file:
+
+```shell
+$ vim vars.tf
+```
+
+Declare you variable:
 
 ```hcl
 variable "this" {}
 ```
 
 Assign values to your varible:
+
+```shell
+$ vim console.tfvars
+```
+
+Add contents to the file
 
 ```hcl
 this = {
