@@ -78,7 +78,7 @@ variable "this" {
 }           
 ```
 
-Assign values to these vars
+Assign values to these vars from some files in a common directory:
 
 ```shell
 $ ls -l vars/dev
