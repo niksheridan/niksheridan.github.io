@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - How To
+  - Terraform
 ---
 Reference syntax for terraform wrapping. See [terraform working with vars]({{ site.baseurl }}/blog/post-terraform-working-with-vars/) and
 [terraform locals]({{ site.baseurl }}/blog/post-terraform-locals/) if you find gaps.
@@ -16,7 +17,7 @@ This is intended to be simple, and use straight forward bash scripts.
 ## Stash your Functions
 
 Create a helper file, as you might want to use
-this helper in another scipt - huge time saver.
+this helper in another script - huge time saver for the future.
 
 ```shell
 $ vim ./bash_functions/helpers.sh

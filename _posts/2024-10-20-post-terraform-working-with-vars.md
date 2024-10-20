@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - How To
+  - Terraform
 ---
 Reference syntax for terraform loops.
 

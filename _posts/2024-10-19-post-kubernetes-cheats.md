@@ -5,6 +5,7 @@ categories:
   - Blog
 tags:
   - How To
+  - Kubernetes
 kubectl_reference: https://kubernetes.io/docs/reference/kubectl/quick-reference/
 ---
 
