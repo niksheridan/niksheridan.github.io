@@ -13,29 +13,17 @@ Reference syntax for terraform loops.
 Don't forget terraform console, and also how you can load vars in
 for experimenting.
 
-Create a variable declaration file:
+Create a locals file:
 
 ```shell
-$ vim vars.tf
+$ vim locals.tf
 ```
 
-Declare you variable:
+Add a locals block:
 
 ```hcl
-variable "this" {}
-```
-
-Assign values to your varible:
-
-```shell
-$ vim console.tfvars
-```
-
-Add contents to the file
-
-```hcl
-this = {
-  amazing_key = "amazing value"
+locals {
+  that = var.this
 }
 ```
 
@@ -49,14 +37,29 @@ Inspect your variable:
 
 ```shell
 $ tf console -var-file=console.tfvars
-> var.this
+> local.that
 {
   "amazing_key" = "amazing value"
 }
-> var.this.amazing_key
-"amazing value"
 >  
-> { for k, v in var.this : k => [ for i in range(1,10,1) : "${v}-${i}" ] }
+```
+
+Add in another value:
+
+```hcl
+locals {
+  that = var.this
+  those = { for k, v in var.this :
+    k => [for i in range(1, 10, 1) : "${v}-${i}"]
+  }
+}
+```
+
+Inspect
+
+```shell
+$ tf console -var-file=console.tfvars
+> local.those
 {
   "amazing_key" = [
     "amazing value-1",
