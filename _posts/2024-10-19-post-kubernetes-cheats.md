@@ -20,6 +20,17 @@ When using bash consider updating your `~/.bashrc`:
 alias k=kubectl
 ```
 
+Bash completion - tab complete commands - increadibly useful, works with pod names as well.
+
+```bash
+# install bash completion
+dnf install bash-completion
+# set up autocomplete in bash into the current shell, bash-completion package should be installed first.
+source <(kubectl completion bash)
+# add autocomplete permanently to your bash shell.
+echo "source <(kubectl completion bash)" >> ~/.bashrc 
+```
+
 Also see [kubectl Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/).
 
 ## Switching between Clusters (contexts)
