@@ -114,4 +114,4 @@ k get nodes -o wide
 k get service -n awx awx-demo-service 
 ```
 
-Put it all together probably end up somehting like `link: http://192.168.39.203:30459`
+Put it all together probably end up something like `link: http://192.168.39.203:30459`
