@@ -29,3 +29,7 @@ Destroy cluster
 ```bash
 minikube delete
 ```
+
+Checkout [minikube]({{ site.baseurl }}/blog/post-minikube-quick-ref/) for creating
+a local minikube cluster, trying things out locally and switching between a scratch
+environment and a your main prod environment.
