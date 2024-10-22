@@ -54,7 +54,7 @@ spec:
 EOF
 ```
 
-Create a kustomisation file (note version is embedded from the environment
+Create a `kustomization` file (note version is embedded from the environment
 variable above)
 
 ```bash
@@ -96,7 +96,7 @@ Fetch secret:
 kubectl get -n awx secret awx-demo-admin-password -o jsonpath="{.data.password}" | base64 --decode ; echo
 ```
 
-Login with admin and the above secret.
+Login with `admin` and the above secret.
 
 ```bash
 # tunnel to the service
