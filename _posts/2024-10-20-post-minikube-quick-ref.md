@@ -30,6 +30,5 @@ Destroy cluster
 minikube delete
 ```
 
-Checkout [minikube]({{ site.baseurl }}/blog/post-minikube-quick-ref/) for creating
-a local minikube cluster, trying things out locally and switching between a scratch
-environment and a your main prod environment.
+Checkout [kubernetes cheats]({{ site.baseurl }}/blog/post-kubernetes-cheats/) for using
+helpful commands to get things deployed.
