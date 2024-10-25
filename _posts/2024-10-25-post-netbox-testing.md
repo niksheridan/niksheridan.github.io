@@ -26,7 +26,8 @@ podman-compose pull
 # run and detach in background
 podman-compose up -d
 # create a superuser (admin) password
-podman-compose exec netbox /opt/netbox/netbox/manage.py createsuperuser
+podman-compose exec \
+  netbox /opt/netbox/netbox/manage.py createsuperuser
 ```
 
 Go to `link: http://localhost:8000` and login.
