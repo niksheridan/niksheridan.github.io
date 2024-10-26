@@ -115,3 +115,72 @@ k get service -n awx awx-demo-service
 ```
 
 Put it all together probably end up something like `link: http://192.168.39.203:30459`
+
+## Personal Interpretation of AWX Terminology
+
+Term                  | Familiar Term or Use
+----------------------|-----------------------
+Template (job)        | Job. You run a template ('Job Template')
+Template (workflow)   | Workflow. (definintion required)
+Project               | Combination of Template, Hosts
+Hosts                 | Inventory.  Populated from inventory data read
+Inventory             | Inventory sources.  All manner of sources, e.g. Netbox
+Execution Environment | Runner, Build agent, worker
+
+## Creating Custom Execution Environments ('runners')
+
+See [this repository](https://github.com/objectivesia/awx-ee-custom/tree/main) and this
+[reference post](https://thedatabaseme.de/2022/09/09/self-build-awx-execution-environment/),
+to provide a repeatable, version controlled way to track
+any need to stray from a vanilla path, which will be inevitable.
+
+## Integrating with Netbox
+
+Use AWX with netbox, this is very git centric, as I have not yet found any other sustainable
+approach to working.
+
+### Credentials
+
+This gives you an identity for git.
+
+* create credentials, I have SSH used keys (Credentials >> netbox_ssh_key)
+* add key to repo as deployment key
+* add credential as type `source control`
+
+### Project
+
+This gives you playbooks to choose from when you define a job template.
+
+The below will just sync the project, not run the job, so it will call to the repository
+and by doing so, attempt to authenticate.
+
+* create project, add source control as git, associate credential
+* save
+
+### Inventory
+
+This gives you your deployment targets, but allows you to off load the maintenance to another
+team.
+
+* create inventory, provide name
+* save
+* go sources > add
+* choose the custom exection environment
+* choose sourced from a project (choose the one you created above)
+* choose project
+* choose project root
+* choose update on launch
+* save
+* sync
+
+### Job Template
+
+This gives you your first chance to run a playbook.
+
+* create job template
+* choose inventory you created above
+* choose project you created above
+* choose execution environment you created above
+* choose playbook found in the project repository
+* save
+* launch
